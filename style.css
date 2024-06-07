@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -7,6 +8,7 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  max-width:1092px
 }
 
 h1,
@@ -18,6 +20,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  
 }
 
 h2 {
@@ -96,14 +99,16 @@ p {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
+.email-link, .github-link, .whatsapp-link{
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
 }
+.icons{
+display: flex;
+  justify-content: space-evenly;
+}
 
-.email-link:hover {
+.email-link:hover, .github-link:hover {
   text-decoration: underline;
 }
